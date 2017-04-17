@@ -1,13 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-.App {
-  margin-top: 7em;
-}
-
-#food-search {
-  margin-top: 5em;
+.app {
+	margin: auto;
+	width: 50%;
+	border: 3px solid purple;
+	padding: 10px;
 }
