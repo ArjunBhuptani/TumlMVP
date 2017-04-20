@@ -28,8 +28,11 @@ Navigate to a folder in your command prompt that you want to copy the Tuml repo 
 
 In command prompt, type:
 
-```mkdir repositories
-cd repositories```
+mkdir repositories
+
+then 
+
+cd repositories
 
 (this creates and gets you into repositories folder)
 
