@@ -20,13 +20,14 @@ app.get('/', function(req, res) {
 app.post('/location', function(req, res) {
 	var location = req.body.location;
 	var hours = req.body.hours;
+	var phoneNumber = req.body.phoneNumber;
 
 	client.messages.create({
-	  body: 'Location: ' + location + ' hours: ' + hours,
+	  body: 'Location: ' + location + ' hours: ' + hours + ' phone number: ' + phoneNumber,
 	  to: '+14154708674',
 	  from: twilioNumber
 	}, function (e, message) {
-	  if (e) return(e);
+	  if (e) res.send(e);
 	  res.send(message.sid);
 	});
 })
