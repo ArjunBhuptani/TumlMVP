@@ -28,8 +28,8 @@ Navigate to a folder in your command prompt that you want to copy the Tuml repo 
 
 In command prompt, type:
 
-mkdir repositories 
-cd repositories
+```mkdir repositories
+cd repositories```
 
 (this creates and gets you into repositories folder)
 
@@ -37,9 +37,9 @@ Then type ```git clone https://github.com/ArjunBhuptani/TumlMVP.git```
 
 ### Testing the repo
 
-```cd tumlmvp```
-```npm install```
-```npm run start```
+```cd tumlmvp
+npm install
+npm run start```
 
 Open a browser and navigate to localhost:3000
 
